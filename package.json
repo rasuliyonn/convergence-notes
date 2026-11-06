@@ -1,0 +1,25 @@
+{
+  "name": "convergence-notes",
+  "version": "1.0.0",
+  "description": "Offline-first note synchronisation built on RGA sequences, OR-Set tags and vector clocks",
+  "type": "module",
+  "bin": {
+    "convergence-notes": "./bin/notes.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/notes.js",
+    "fuzz": "node bin/notes.js --fuzz 800"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "crdt",
+    "rga",
+    "offline-first",
+    "vector-clock",
+    "collaboration"
+  ],
+  "license": "MIT"
+}
